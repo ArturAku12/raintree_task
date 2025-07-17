@@ -10,7 +10,6 @@ $schema = file_get_contents(__DIR__ . '/../sql/schema.sql');
 
 try {
     $pdo->exec($schema);
-    echo "Schema executed successfully.\n";
 } catch (\PDOException $e) {
     if (str_contains($e->getMessage(), 'already exists')) {
         echo "Table already exists. Skipping creation.\n";

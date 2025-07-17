@@ -22,7 +22,6 @@ class Database
             self::$pdo = new PDO($dsn, $user, $pass);
             self::$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
-        echo "Connected successfully to the database.\n";
         return self::$pdo;
     }
 }

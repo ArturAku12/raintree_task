@@ -85,7 +85,6 @@ class Patient
                 ]);
             }
         }
-        print "Inserted new patient row.\n";
     }
 
     static public function retrieveInformation(string|int $id): Patient
