@@ -12,7 +12,7 @@ use PaymentMethod\CreditCard;
 $pdo = Database::getConnection();
 
 // Check if data already exists
-$stmt = $pdo->query("SELECT COUNT(*) FROM patients");
+$stmt = $pdo->query("SELECT COUNT(*) FROM patient");
 $single_seed = true; // Change to false if multiple seeds are wanted. 
 if ($stmt->fetchColumn() > 0 && $single_seed) {
     echo "Database already seeded. Exiting.\n";
