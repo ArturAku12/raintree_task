@@ -9,8 +9,8 @@ require_once __DIR__ . '/../PaymentMethod/ACH.php';
 use PaymentMethod\ACH;
 use PaymentMethod\CreditCard;
 
-// Retrieve patient with id = 3
+// Retrieve patient with id = 5
 $patient = Patient::retrieveInformation(5);
 
-// Print patient details
-echo $patient->printCustomerDetails();
+// Return the patient details as a string
+return $patient->printCustomerDetails();
