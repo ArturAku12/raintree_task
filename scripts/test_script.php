@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../Config/Database.php';
+require_once __DIR__ . '/../config/Database.php';
 require_once __DIR__ . '/../Patient.php';
 require_once __DIR__ . '/../PaymentMethod/PaymentMethod.php';
 require_once __DIR__ . '/../PaymentMethod/CreditCard.php';

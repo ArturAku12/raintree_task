@@ -15,8 +15,7 @@ $pdo = Database::getConnection();
 $stmt = $pdo->query("SELECT COUNT(*) FROM patient");
 $single_seed = true; // Change to false if multiple seeds are wanted. 
 if ($stmt->fetchColumn() > 0 && $single_seed) {
-    echo "Database already seeded. Exiting.\n";
-    exit;
+    return; // Use return instead of exit to allow parent script to continue
 }
 
 // Random dummy data sources

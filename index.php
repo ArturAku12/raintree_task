@@ -1,5 +1,8 @@
 <?php
 
+// Ensure configuration is loaded first as a prerequisite
+require_once __DIR__ . '/config/config.php';
+
 // Include the patient details functionality
 echo "<hr>";
 echo "<h2>Patient Details</h2>";
@@ -14,5 +17,5 @@ try {
     echo "</pre>";
     echo "</div>";
 } catch (Exception $e) {
-    echo "<p style='color: red;'>❌ Error retrieving patient details: " . $e->getMessage() . "</p>";
+    echo "<p> Error retrieving patient details: " . $e->getMessage() . "</p>";
 }

@@ -12,7 +12,6 @@ try {
     $pdo->exec($schema);
 } catch (\PDOException $e) {
     if (str_contains($e->getMessage(), 'already exists')) {
-        echo "Table already exists. Skipping creation.\n";
     } else {
         echo "Error executing schema: " . $e->getMessage() . "\n";
     }

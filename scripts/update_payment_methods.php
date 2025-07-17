@@ -10,7 +10,6 @@ $sql = file_get_contents(__DIR__ . '/../sql/update.sql');
 
 try {
     $pdo->exec($sql);
-    echo "Update SQL executed successfully.\n";
 } catch (\PDOException $e) {
     echo "Error executing update SQL: " . $e->getMessage() . "\n";
 }
