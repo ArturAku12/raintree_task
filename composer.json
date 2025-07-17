@@ -1,0 +1,15 @@
+{
+    "name": "user/raintree-task",
+    "description": "A sample PHP application.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "PaymentMethod\\": "PaymentMethod/"
+        },
+        "classmap": [
+            "Patient.php"
+        ]
+    },
+    "require": {}
+}

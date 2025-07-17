@@ -1,0 +1,13 @@
+.git
+.gitignore
+README.md
+Dockerfile
+.dockerignore
+vendor/
+node_modules/
+.env
+.env.local
+.env.*.local
+logs/
+*.log
+.DS_Store
