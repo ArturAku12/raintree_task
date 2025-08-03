@@ -24,15 +24,15 @@ class ComposerStaticInite8135603c5a764416c02347dca633bf5
     public static $prefixDirsPsr4 = array (
         'PaymentMethod\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/PaymentMethod',
+            0 => __DIR__ . '/../..' . '/src/PaymentMethod',
         ),
         'Model\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/',
+            0 => __DIR__ . '/../..' . '/src/Model',
         ),
         'Config\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/config',
+            0 => __DIR__ . '/../..' . '/src/Config',
         ),
     );
 

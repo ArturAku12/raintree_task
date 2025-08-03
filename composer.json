@@ -4,9 +4,9 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Config\\": "config/",
-            "PaymentMethod\\": "PaymentMethod/",
-            "Model\\": "./"
+            "Config\\": "src/Config/",
+            "PaymentMethod\\": "src/PaymentMethod/",
+            "Model\\": "src/Model/"
         }
     },
     "require": {}
