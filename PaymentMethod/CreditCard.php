@@ -2,8 +2,6 @@
 
 namespace PaymentMethod;
 
-require_once __DIR__ . '/PaymentMethod.php'; // Ensure the PaymentMethod class is imported
-
 use \DateTime;
 
 class CreditCard extends PaymentMethod

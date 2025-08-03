@@ -1,5 +1,8 @@
 <?php
 
+// Import autoload to simplify class loading
+require_once __DIR__ . '/vendor/autoload.php';
+
 // Ensure configuration is loaded first as a prerequisite
 require_once __DIR__ . '/config/config.php';
 
