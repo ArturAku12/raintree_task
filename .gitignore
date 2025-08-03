@@ -1,0 +1,12 @@
+# Composer dependencies
+vendor/
+
+# Docker volumes (created at runtime)
+db_data/
+
+# OS specific files (macOS)
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
