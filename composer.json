@@ -5,11 +5,9 @@
     "autoload": {
         "psr-4": {
             "Config\\": "config/",
-            "PaymentMethod\\": "PaymentMethod/"
-        },
-        "classmap": [
-            "Patient.php"
-        ]
+            "PaymentMethod\\": "PaymentMethod/",
+            "Model\\": "./"
+        }
     },
     "require": {}
 }

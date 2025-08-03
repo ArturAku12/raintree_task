@@ -2,8 +2,6 @@
 
 namespace Config;
 
-require_once __DIR__ . '/../config/Database.php';
-
 $pdo = Database::getConnection();
 
 $schema = file_get_contents(__DIR__ . '/../sql/schema.sql');

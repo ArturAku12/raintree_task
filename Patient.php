@@ -1,9 +1,12 @@
 <?php
 
+namespace Model;
+
 use PaymentMethod\PaymentMethod;
 use PaymentMethod\ACH;
 use PaymentMethod\CreditCard;
 use Config\Database;
+use PDO;
 
 class Patient
 {

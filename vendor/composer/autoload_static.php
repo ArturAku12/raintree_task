@@ -11,6 +11,10 @@ class ComposerStaticInite8135603c5a764416c02347dca633bf5
         array (
             'PaymentMethod\\' => 14,
         ),
+        'M' => 
+        array (
+            'Model\\' => 6,
+        ),
         'C' => 
         array (
             'Config\\' => 7,
@@ -22,6 +26,10 @@ class ComposerStaticInite8135603c5a764416c02347dca633bf5
         array (
             0 => __DIR__ . '/../..' . '/PaymentMethod',
         ),
+        'Model\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/',
+        ),
         'Config\\' => 
         array (
             0 => __DIR__ . '/../..' . '/config',
@@ -30,7 +38,6 @@ class ComposerStaticInite8135603c5a764416c02347dca633bf5
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Patient' => __DIR__ . '/../..' . '/Patient.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

@@ -1,10 +1,10 @@
 <?php
 
-// Import autoload to simplify class loading
 require_once __DIR__ . '/vendor/autoload.php';
-
-// Ensure configuration is loaded first as a prerequisite
 require_once __DIR__ . '/config/config.php';
+
+// // Include and run database setup
+// include __DIR__ . '/scripts/create_tables.php';
 
 // Include the patient details functionality
 echo "<hr>";

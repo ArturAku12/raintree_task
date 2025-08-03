@@ -1,13 +1,9 @@
 <?php
 
-require_once __DIR__ . '/../Patient.php';
-require_once __DIR__ . '/../PaymentMethod/CreditCard.php';
-require_once __DIR__ . '/../PaymentMethod/ACH.php';
-require_once __DIR__ . '/../config/Database.php';
-
 use Config\Database;
 use PaymentMethod\ACH;
 use PaymentMethod\CreditCard;
+use Model\Patient;
 
 $pdo = Database::getConnection();
 

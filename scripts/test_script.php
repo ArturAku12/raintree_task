@@ -1,16 +1,9 @@
 <?php
 
-require_once __DIR__ . '/../config/Database.php';
-require_once __DIR__ . '/../Patient.php';
-require_once __DIR__ . '/../PaymentMethod/PaymentMethod.php';
-require_once __DIR__ . '/../PaymentMethod/CreditCard.php';
-require_once __DIR__ . '/../PaymentMethod/ACH.php';
+use Model\Patient;
 
-use PaymentMethod\ACH;
-use PaymentMethod\CreditCard;
-
-// Retrieve patient with id = 5
-$patient = Patient::retrieveInformation(5);
+// Retrieve patient with a random id between 1 and 9
+$patient = Patient::retrieveInformation(rand(1, 9));
 
 // Return the patient details as a string
 return $patient->printCustomerDetails();

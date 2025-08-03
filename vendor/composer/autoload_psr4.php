@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'PaymentMethod\\' => array($baseDir . '/PaymentMethod'),
+    'Model\\' => array($baseDir . '/'),
     'Config\\' => array($baseDir . '/config'),
 );

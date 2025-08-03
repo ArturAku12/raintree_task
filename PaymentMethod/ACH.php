@@ -2,8 +2,6 @@
 
 namespace PaymentMethod;
 
-use PaymentMethod\PaymentMethod;
-
 class ACH extends PaymentMethod
 {
     private $accountNumber;
