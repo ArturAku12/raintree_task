@@ -2,13 +2,21 @@
 
 ## Quick Start
 
-### 1. Start the Application
+### 1. Set up environment
+
+Copy the environment file to fill it out:
+
+```bash
+cp .env.example .env
+```
+
+### 2. Start the Application
 
 ```bash
 docker-compose up --build -d
 ```
 
-### 2. Access the Application
+### 3. Access the Application
 
 Open your browser and go to: **http://localhost:8080**
 

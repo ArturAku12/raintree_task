@@ -1,6 +1,9 @@
 # Composer dependencies
 vendor/
 
+# Environment variables
+.env
+
 # Docker volumes (created at runtime)
 db_data/
 
